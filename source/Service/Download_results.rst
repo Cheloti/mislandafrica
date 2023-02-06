@@ -1,12 +1,10 @@
 Exporting Outputs
 =================
-Exporting outputs on the service is as simple and intuitive as all the other functions of the service. Users can download the maps, charts and data as will be discussed in this section of the documentation.
+Exporting outputs on the service is as simple and intuitive. Users can download the maps, charts and data following the steps highligted in this section of the document.
 
 Export Map
 ___________
-The map outputs for every coputatio on the service platform can be exported as an image file in either portrait or landscape mode.
-
-To export the map outputs, users can click on the export map tool that is found on the map navigation tools as shown below.
+Map outputs can be exported in .png format. To export the map, users can click on the export map tool that is found on the map navigation tools as shown below.
 
 
 
@@ -22,17 +20,27 @@ To export the map outputs, users can click on the export map tool that is found 
 
 Export Chart
 _____________
-The 'export chart as image' option can be found just below the service menu-bar.
-
-By clicking on the option the user will be able to download the resultant summary chart as an image file. An example of an image file export is shown below.
+The chart image can be exported from the statistics tab by clicking on the export image icon |exportimageicon| on the list of icons at the top-right conner of the chart area.
 
 .. figure:: ../_static/Images/Service/export1.png
-    :width: 379
+    :width: 170
     :align: center
-    :height: 164
+    :height: 80
     :alt: export chart as image
     :figclass: align-center
 
     Export chart as image
 
+An example of an image file export is shown below.
+
+.. figure:: ../_static/Images/Service/chartimage.png
+    :width: 429
+    :align: center
+    :height: 214
+    :alt: export chart as image
+    :figclass: align-center
+
+    Export chart as image
+
+.. |exportimageicon| image:: ../_static/Images/Service/exportimageicon.png
 

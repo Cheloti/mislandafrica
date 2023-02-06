@@ -22,9 +22,9 @@ New users to the service will be required to register a new account to use the s
 1. Click on the log-in icon on the right hand side of the navigation-bar
 
 .. figure:: ../_static/Images/login.png
-    :width: 386
+    :width: 516
     :align: center
-    :height: 63
+    :height: 305
     :alt: register
     :figclass: align-center
 
@@ -33,9 +33,9 @@ New users to the service will be required to register a new account to use the s
 2. Choose the 'Not a user? Sing up' option on the log in menu that pops up
 
 .. figure:: ../_static/Images/register.png
-    :width: 250
+    :width: 582
     :align: center
-    :height: 300
+    :height: 545
     :alt: register
     :figclass: align-center
 
@@ -51,28 +51,28 @@ Once loged in, users can select their profile to edit their information and for 
 1. Click on the user-name that appears on the navingation bar items
 
 .. figure:: ../_static/Images/profile.png
-    :width: 405
+    :width: 570
     :align: center
-    :height: 66
+    :height: 591
     :alt: register
     :figclass: align-center
 
     User profile and options
 
-2. Click on the |choosefile| button. This should open up the file browser. 
+.. 2. Click on the |choosefile| button. This should open up the file browser. 
 
-.. figure:: ../_static/Images/customareaupload_1.png
-    :width: 727
-    :align: center
-    :height: 503
-    :alt: register
-    :figclass: align-center
+.. .. figure:: ../_static/Images/customareaupload_1.png
+..     :width: 727
+..     :align: center
+..     :height: 503
+..     :alt: register
+..     :figclass: align-center
 
-    Selecting custom files for upload
+..     Selecting custom files for upload
 
 
 
-3. Navigate to the location in which you have stored your zipped shapefile and click on the |uploadbutton|
+.. 3. Navigate to the location in which you have stored your zipped shapefile and click on the |uploadbutton|
 
-.. |choosefile| image:: ../_static/Images/choosefile.png
-.. |uploadbutton| image:: ../_static/Images/uploadbutton.png
+.. .. |choosefile| image:: ../_static/Images/choosefile.png
+.. .. |uploadbutton| image:: ../_static/Images/uploadbutton.png

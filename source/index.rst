@@ -16,16 +16,16 @@ Monitoring Integrated Service for Land Degradation - MISLAND
        </video>
    </div>
    
-The Monitoring Integrated System for Land Degradation Monitoring MISLAND has been developed as a 
-collaboration between the OSS and LocateIT under the GMES and Africa programme as a Decision Support 
-System(DSS) utilizing earth observation data to deliver information, promote awareness and, aid in 
-decision making toward realizing Land Degradation Neutrality (LDN) in six OSS North Africa action zone 
-countries: Algeria, Egypt, Libya, Tunisia, Morocco, and Mauritania. At the very core, the service 
-provided information to monitor SDG indicator 15.3.1 (Proportion of land that is degraded over the 
-total land area). In addition, and to improve the understanding and multi-faceted nature of the active 
-processes behind land degradation, MISLAND service also provides information on Vegetation loss and 
-gain hotspots, Forest change, forest fires and the Mediterranean Desertification and Land Use Model 
-(MEDALUS), to assess desertification indicators.
+The Monitoring Integrated System for Land Degradation MISLAND was developed under 
+The Monitoring Integrated System for Land Degradation MISLAND was developed under 
+GMES & Africa programme through a collaboration between the OSS and LocateIT  as a Decision Support System (DSS) utilizing Earth Observation data to deliver information, promote awareness, and support decision making toward achieving Land Degradation Neutrality (LDN) in African countries. 
+
+At the very core, the service provides information to monitor SDG indicator 15.3.1 
+(Proportion of land that is degraded over the total land area). In addition, and to 
+improve the understanding and the multi-faceted nature of the active processes 
+behind land degradation, MISLAND service also provides information on vegetation 
+loss and gain hotspots, forest change, forest fires and the Mediterranean Desertification 
+and Land Use Model (MEDALUS), to assess desertification indicators.
 
 .. note::
 

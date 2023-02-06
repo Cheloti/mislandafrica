@@ -51,7 +51,7 @@ On clicking |submit| The map and computed statistics will be displayed on the ma
 
     Foret change outputs
 
-Computing Forest Fires
+Forest Fires Assesment
 _______________________
 
 1. Select the |forestchangeicon| option from the service menu. Under the |forestfireassesmenticon| click on the |cog| icon to toggle the layer settings as shown below.

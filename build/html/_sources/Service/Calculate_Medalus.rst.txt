@@ -14,38 +14,38 @@ The current implementation of the MEDALUS model in MISLAND overcomes the problem
 
 To compute the individual quality indicators(Soil quality, SQI; vegetation quality, VQI; climate quality, CQI; and management quality, MQI), Follow the following simple steps:
 
-1. On the service menu-bar select the MEDALUS option as shown below:
+1. On the service menu-bar select the |deserticon| option and click on the |cog| icon to togle the layer settings dialog as shown below:
 
 .. figure:: ../_static/Images/Service/medalus1.png
-    :width: 554
+    :width: 700
     :align: center
-    :height: 194
+    :height: 396
     :alt: Medalus
     :figclass: align-center
 
-    Selecting the MEDALUS option from the service Menu
+    MEDALUS layer settings dialog.
 
-2. On the layer settings options select the Quality index to compute from the dropdown list and the year you wish to compute:
+2. On the layer settings dialog select the Quality index to compute from the dropdown list and the year you wish to compute:
 
 .. figure:: ../_static/Images/Service/medalus2.png
-    :width: 554
+    :width: 705
     :align: center
-    :height: 194
+    :height: 515
     :alt: Medalus
     :figclass: align-center
 
-    Selecting the Quality index to compute form the dropdown list
+    Selecting the Quality index to compute
 
 The resultant layer and statistics will be computed and visualized as shown
 
 .. figure:: ../_static/Images/Service/medalus3.png
     :width: 700
     :align: center
-    :height: 340
+    :height: 395
     :alt: Medalus
     :figclass: align-center
 
-    Results for SQI computation
+    Example of results for Management Quality Index computation
 
     
 Calculate the Environmental Sensitivity Areas Index(ESAI)
@@ -53,9 +53,9 @@ _____________________________________________________________
 To coumpute the Environmental Sensitivity Index select MEDALUS option from the service menu. On the layers selection option dropdown, selsect the ESAI option as shown below
 
 .. figure:: ../_static/Images/Service/medalus4.png
-    :width: 628
+    :width: 700
     :align: center
-    :height: 330
+    :height: 500
     :alt: Medalus
     :figclass: align-center
 
@@ -63,3 +63,6 @@ To coumpute the Environmental Sensitivity Index select MEDALUS option from the s
 
 .. toctree::
    :maxdepth: 3
+
+.. |deserticon| image:: ../_static/Images/Service/deserticon.png
+.. |cog| image:: ../_static/Images/Service/cog.png

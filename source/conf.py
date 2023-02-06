@@ -19,7 +19,7 @@ sys.path.insert(0, os.path.abspath('.'))
 
 project = 'Monitoring Integrated Service for Land Degradation'
 copyright = '2020, LocateIT Kenya Ltd'
-author = 'Derick ONGERI, Grace AMONDI'
+author = 'LocateIT Kenya Ltd'
 
 # The full version, including alpha/beta/rc tags
 release = '1.0.0'
@@ -55,7 +55,7 @@ exclude_patterns = []
 #html_theme_path = [better_theme_path]
 html_theme = "pydata_sphinx_theme"
 
-html_sidebars = { '**': ['globaltoc.html', 'relations.html', 'sourcelink.html', 'searchbox.html'] }
+html_sidebars = { '**': ['globaltoc.html', 'relations.html', 'searchbox.html'] }
 
 
 html_theme_options = {

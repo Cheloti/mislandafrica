@@ -1,0 +1,192 @@
+\babel@toc {english}{}
+\contentsline {chapter}{\numberline {1}General Infortmation}{3}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Get in touch with the team}{3}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Authors}{3}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Aknowledgement}{4}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Linces}{4}{section.1.4}%
+\contentsline {chapter}{\numberline {2}Data sources}{5}{chapter.2}%
+\contentsline {section}{\numberline {2.1}NDVI}{5}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Soil moisture}{5}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Precipitation}{5}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Evapotranspiration}{6}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Land cover}{6}{section.2.5}%
+\contentsline {section}{\numberline {2.6}Soil carbon}{6}{section.2.6}%
+\contentsline {section}{\numberline {2.7}Agroecological Zones}{6}{section.2.7}%
+\contentsline {section}{\numberline {2.8}Soil Quality}{6}{section.2.8}%
+\contentsline {section}{\numberline {2.9}Climate}{6}{section.2.9}%
+\contentsline {section}{\numberline {2.10}Administrative Boundaries}{7}{section.2.10}%
+\contentsline {chapter}{\numberline {3}Dataset coding}{9}{chapter.3}%
+\contentsline {section}{\numberline {3.1}SDG 15.3.1 Indicator}{9}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Productivity}{9}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Productivity trajectory (trend)}{9}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Productivity trajectory (significance)}{10}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Productivity performance (degradation)}{10}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.4}Productivity performance (ratio)}{10}{subsection.3.2.4}%
+\contentsline {subsection}{\numberline {3.2.5}Productivity performance (units)}{10}{subsection.3.2.5}%
+\contentsline {subsection}{\numberline {3.2.6}Productivity state (degradation)}{10}{subsection.3.2.6}%
+\contentsline {subsection}{\numberline {3.2.7}Productivity state classes}{11}{subsection.3.2.7}%
+\contentsline {subsection}{\numberline {3.2.8}Productivity state NDVI mean}{11}{subsection.3.2.8}%
+\contentsline {subsection}{\numberline {3.2.9}SDG 15.3.1 productivity indicator}{11}{subsection.3.2.9}%
+\contentsline {subsection}{\numberline {3.2.10}Land productivity dynamics}{11}{subsection.3.2.10}%
+\contentsline {section}{\numberline {3.3}Land cover}{11}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Land cover (degradation)}{11}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Land cover (7 class)}{12}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}Land cover (ESA classes)}{12}{subsection.3.3.3}%
+\contentsline {subsection}{\numberline {3.3.4}Land cover (transitions)}{13}{subsection.3.3.4}%
+\contentsline {section}{\numberline {3.4}Soil organic carbon}{14}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Soil organic carbon (degradation)}{14}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Soil organic carbon}{14}{subsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.4.3}Population}{14}{subsection.3.4.3}%
+\contentsline {subsection}{\numberline {3.4.4}Delta Normalized Burnt Ratio}{14}{subsection.3.4.4}%
+\contentsline {chapter}{\numberline {4}Frequently asked questions}{15}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Installation of MISLAND\sphinxhyphen {}North Africa}{15}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}What version of Quantum GIS (QGIS) do I need for the toolbox?}{15}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Do I need to download a 32\sphinxhyphen {}bit or 64 bit version of QGIS?}{15}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.1.3}How do I install the plugin?}{16}{subsection.4.1.3}%
+\contentsline {subsection}{\numberline {4.1.4}How do I upgrade the plugin?}{16}{subsection.4.1.4}%
+\contentsline {subsection}{\numberline {4.1.5}How do I uninstall the plugin?}{16}{subsection.4.1.5}%
+\contentsline {section}{\numberline {4.2}Datasets}{16}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}When will you update datasets for the current year?}{16}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Is there an option to download the original data?}{16}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Will the toolbox support higher resolution datasets?}{17}{subsection.4.2.3}%
+\contentsline {section}{\numberline {4.3}Methods}{17}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Who was the default time period for the analysis determined?}{17}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Productivity}{17}{subsection.4.3.2}%
+\contentsline {subsubsection}{How does the result provided by state differs from trajectory?}{17}{subsubsection*.3}%
+\contentsline {subsection}{\numberline {4.3.3}Land cover}{17}{subsection.4.3.3}%
+\contentsline {subsubsection}{Currently, the land cover aggregation is done following the UNCCD guidelines, but that classification does not take into account country level characteristics. Could it be possible to allow the user to define the aggregation criteria?}{17}{subsubsection*.4}%
+\contentsline {subsubsection}{How can we isolate woody plant encroachment within the toolbox?}{17}{subsubsection*.5}%
+\contentsline {subsection}{\numberline {4.3.4}Carbon stocks}{17}{subsection.4.3.4}%
+\contentsline {subsubsection}{Why use soil organic carbon (SOC) instead of above and below\sphinxhyphen {}ground carbon to measure carbon stocks?}{17}{subsubsection*.6}%
+\contentsline {subsubsection}{Is it possible to measure identify processes of degradation linked to salinization using this tool?}{18}{subsubsection*.7}%
+\contentsline {section}{\numberline {4.4}Land degradation outputs}{18}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}How were the layers combined to define the final land degradation layer?}{18}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Why do I see areas the data says are improving or degrading when I know they are not?}{18}{subsection.4.4.2}%
+\contentsline {subsection}{\numberline {4.4.3}All of the sub\sphinxhyphen {}indicators are measuring vegetation: how does this contribute to understanding and identifying land degradation?}{18}{subsection.4.4.3}%
+\contentsline {section}{\numberline {4.5}Future plans}{19}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}When will there be an offline version of the toolbox?}{19}{subsection.4.5.1}%
+\contentsline {chapter}{\numberline {5}Land Degradation}{21}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Land Degradation Indicators}{21}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}SDG15.3.1 Indicator}{22}{subsection.5.1.1}%
+\contentsline {subsubsection}{SDG 15.3.1 Sub\sphinxhyphen {}indicators}{23}{subsubsection*.23}%
+\contentsline {paragraph}{Productivity}{23}{paragraph*.24}%
+\contentsline {subparagraph}{Trajectory}{24}{subparagraph*.25}%
+\contentsline {subparagraph}{State}{25}{subparagraph*.26}%
+\contentsline {subparagraph}{Perfomance}{25}{subparagraph*.27}%
+\contentsline {paragraph}{Landcover}{26}{paragraph*.28}%
+\contentsline {paragraph}{Carbon\sphinxhyphen {}stocks}{27}{paragraph*.29}%
+\contentsline {subsubsection}{Combining Productivity Indicators}{29}{subsubsection*.30}%
+\contentsline {subsection}{\numberline {5.1.2}Vegetation Loss/Gain hotspots}{29}{subsection.5.1.2}%
+\contentsline {subsection}{\numberline {5.1.3}Forest Change}{29}{subsection.5.1.3}%
+\contentsline {subsubsection}{Forest Gain/Loss}{29}{subsubsection*.31}%
+\contentsline {subsubsection}{Forest Fires}{30}{subsubsection*.32}%
+\contentsline {chapter}{\numberline {6}SDG15.3.1 Indicator}{31}{chapter.6}%
+\contentsline {section}{\numberline {6.1}SDG 15.3.1 Sub\sphinxhyphen {}indicators}{32}{section.6.1}%
+\contentsline {subsection}{\numberline {6.1.1}Productivity}{32}{subsection.6.1.1}%
+\contentsline {subsection}{\numberline {6.1.2}Combining Productivity Indicators}{34}{subsection.6.1.2}%
+\contentsline {section}{\numberline {6.2}Landcover}{35}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Carbon\sphinxhyphen {}stocks}{36}{section.6.3}%
+\contentsline {chapter}{\numberline {7}Vegetation Loss/Gain hotspots}{39}{chapter.7}%
+\contentsline {chapter}{\numberline {8}Forest Change}{41}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Forest Gain/Loss}{41}{section.8.1}%
+\contentsline {section}{\numberline {8.2}Forest Carbon Emission}{41}{section.8.2}%
+\contentsline {section}{\numberline {8.3}Forest Fire Risk}{41}{section.8.3}%
+\contentsline {section}{\numberline {8.4}Forest Fires}{41}{section.8.4}%
+\contentsline {chapter}{\numberline {9}Serivice Guide}{43}{chapter.9}%
+\contentsline {section}{\numberline {9.1}MISLAND Site Tour}{43}{section.9.1}%
+\contentsline {section}{\numberline {9.2}Registration and Log in}{43}{section.9.2}%
+\contentsline {section}{\numberline {9.3}User profile and custom uploads}{44}{section.9.3}%
+\contentsline {chapter}{\numberline {10}SDG 15.3.1 indicator}{47}{chapter.10}%
+\contentsline {section}{\numberline {10.1}Compute SDG 15.3.1 Sub\sphinxhyphen {}indicators}{47}{section.10.1}%
+\contentsline {subsection}{\numberline {10.1.1}Computing Land Productivity}{47}{subsection.10.1.1}%
+\contentsline {subsection}{\numberline {10.1.2}Computing Landcover Change}{51}{subsection.10.1.2}%
+\contentsline {subsection}{\numberline {10.1.3}Carbon Stocks}{56}{subsection.10.1.3}%
+\contentsline {section}{\numberline {10.2}Compute SDG 15.3.1 Indicator}{57}{section.10.2}%
+\contentsline {chapter}{\numberline {11}Calculate Vegetation Loss/Gain indicators}{61}{chapter.11}%
+\contentsline {chapter}{\numberline {12}Calculate Forest Change}{65}{chapter.12}%
+\contentsline {section}{\numberline {12.1}Computing Forest Loss}{65}{section.12.1}%
+\contentsline {section}{\numberline {12.2}Forest Fires Assesment}{69}{section.12.2}%
+\contentsline {chapter}{\numberline {13}Calculating Sensitivity to Desertification (MEDALUS)}{73}{chapter.13}%
+\contentsline {section}{\numberline {13.1}Calculating Individual Quality Indicators}{73}{section.13.1}%
+\contentsline {section}{\numberline {13.2}Calculate the Environmental Sensitivity Areas Index(ESAI)}{76}{section.13.2}%
+\contentsline {chapter}{\numberline {14}Exporting Outputs}{79}{chapter.14}%
+\contentsline {section}{\numberline {14.1}Export Map}{79}{section.14.1}%
+\contentsline {section}{\numberline {14.2}Export Chart}{80}{section.14.2}%
+\contentsline {chapter}{\numberline {15}Download data}{83}{chapter.15}%
+\contentsline {section}{\numberline {15.1}Downloading Raster Data}{84}{section.15.1}%
+\contentsline {chapter}{\numberline {16}Plugin Development}{87}{chapter.16}%
+\contentsline {section}{\numberline {16.1}Modifying the QGIS Plugin code}{88}{section.16.1}%
+\contentsline {subsection}{\numberline {16.1.1}Downloading the MISLAND code}{88}{subsection.16.1.1}%
+\contentsline {subsection}{\numberline {16.1.2}Installing dependencies}{88}{subsection.16.1.2}%
+\contentsline {subsubsection}{Python}{88}{subsubsection*.52}%
+\contentsline {subsubsection}{Python dependencies}{88}{subsubsection*.53}%
+\contentsline {subsubsection}{PyQt}{89}{subsubsection*.54}%
+\contentsline {subsection}{\numberline {16.1.3}Changing the version of the plugin}{89}{subsection.16.1.3}%
+\contentsline {subsection}{\numberline {16.1.4}Testing changes to the plugin}{89}{subsection.16.1.4}%
+\contentsline {subsection}{\numberline {16.1.5}Syncing and deploying changes to the binaries}{90}{subsection.16.1.5}%
+\contentsline {subsection}{\numberline {16.1.6}Building a plugin ZIP file}{91}{subsection.16.1.6}%
+\contentsline {subsection}{\numberline {16.1.7}Deploying the development version ZIP file}{91}{subsection.16.1.7}%
+\contentsline {section}{\numberline {16.2}Modifying the Earth Engine processing code}{91}{section.16.2}%
+\contentsline {subsection}{\numberline {16.2.1}Setting up dependencies}{91}{subsection.16.2.1}%
+\contentsline {subsubsection}{trends.earth\sphinxhyphen {}CLI}{91}{subsubsection*.55}%
+\contentsline {subsubsection}{docker}{92}{subsubsection*.56}%
+\contentsline {subsection}{\numberline {16.2.2}Testing an Earth Engine script locally}{92}{subsection.16.2.2}%
+\contentsline {subsection}{\numberline {16.2.3}Deploying a GEE script to api.trends.earth}{93}{subsection.16.2.3}%
+\contentsline {chapter}{\numberline {17}Before installing the toolbox}{95}{chapter.17}%
+\contentsline {section}{\numberline {17.1}Download QGIS}{95}{section.17.1}%
+\contentsline {section}{\numberline {17.2}Install QGIS}{96}{section.17.2}%
+\contentsline {chapter}{\numberline {18}Installing the toolbox}{97}{chapter.18}%
+\contentsline {section}{\numberline {18.1}Installing the development version}{97}{section.18.1}%
+\contentsline {chapter}{\numberline {19}Registration and settings}{99}{chapter.19}%
+\contentsline {section}{\numberline {19.1}Registration}{99}{section.19.1}%
+\contentsline {section}{\numberline {19.2}Updating your user}{101}{section.19.2}%
+\contentsline {section}{\numberline {19.3}Forgot password}{101}{section.19.3}%
+\contentsline {section}{\numberline {19.4}Advanced settings}{102}{section.19.4}%
+\contentsline {chapter}{\numberline {20}Calculate SDG 15.3.1}{103}{chapter.20}%
+\contentsline {section}{\numberline {20.1}Calculate indicators with simplified tool}{104}{section.20.1}%
+\contentsline {section}{\numberline {20.2}Calculate productivity}{111}{section.20.2}%
+\contentsline {subsection}{\numberline {20.2.1}Productivity Trajectory}{111}{subsection.20.2.1}%
+\contentsline {subsection}{\numberline {20.2.2}Productivity Performance}{113}{subsection.20.2.2}%
+\contentsline {subsection}{\numberline {20.2.3}Productivity State}{114}{subsection.20.2.3}%
+\contentsline {section}{\numberline {20.3}Calculate land cover}{116}{section.20.3}%
+\contentsline {section}{\numberline {20.4}Calculate soil carbon}{122}{section.20.4}%
+\contentsline {section}{\numberline {20.5}Compute SDG Indicator 15.3.1}{127}{section.20.5}%
+\contentsline {chapter}{\numberline {21}Calculate Vegetation Degradation}{133}{chapter.21}%
+\contentsline {section}{\numberline {21.1}Compute Vegatation Indices}{133}{section.21.1}%
+\contentsline {chapter}{\numberline {22}Calculate Forest Degradation}{137}{chapter.22}%
+\contentsline {section}{\numberline {22.1}Compute Forest Fires}{137}{section.22.1}%
+\contentsline {section}{\numberline {22.2}Compute Forest Change and Total Carbon \& Summary}{140}{section.22.2}%
+\contentsline {subsection}{\numberline {22.2.1}Step 1: Compute Forest Change and Total Carbon}{140}{subsection.22.2.1}%
+\contentsline {subsection}{\numberline {22.2.2}Step 2: Generate Carbon Change Summary}{144}{subsection.22.2.2}%
+\contentsline {chapter}{\numberline {23}Calculate Desertification (MEDALUS)}{149}{chapter.23}%
+\contentsline {section}{\numberline {23.1}1. Soil Quality Index (SQI)}{150}{section.23.1}%
+\contentsline {subsection}{\numberline {23.1.1}a. Using default data (Computed on Google Earth Engine)}{150}{subsection.23.1.1}%
+\contentsline {subsection}{\numberline {23.1.2}b. Using Custom data (Computed locally on device)}{153}{subsection.23.1.2}%
+\contentsline {subsubsection}{Raw Data Download}{153}{subsubsection*.84}%
+\contentsline {subsubsection}{Extracting Soil Drainage, Soil Texture and Rock Fragment Layers from HWSD DATA}{153}{subsubsection*.85}%
+\contentsline {subsubsection}{Compute Soil Quality Index}{164}{subsubsection*.86}%
+\contentsline {section}{\numberline {23.2}2. Vegetation Quality Index (VQI)}{166}{section.23.2}%
+\contentsline {section}{\numberline {23.3}3. Climate Quality Index (CQI)}{168}{section.23.3}%
+\contentsline {subsection}{\numberline {23.3.1}a. Using default data (Computed on Google Earth Engine)}{169}{subsection.23.3.1}%
+\contentsline {subsection}{\numberline {23.3.2}b. Using Custom data (Computed locally on device)}{170}{subsection.23.3.2}%
+\contentsline {section}{\numberline {23.4}4. Management Quality Index (MQI)}{171}{section.23.4}%
+\contentsline {section}{\numberline {23.5}Environmentally sensitive area (ESA) Index (Combined Desertification Layer)}{173}{section.23.5}%
+\contentsline {chapter}{\numberline {24}View and download results}{175}{chapter.24}%
+\contentsline {chapter}{\numberline {25}Load Custom Data}{177}{chapter.25}%
+\contentsline {section}{\numberline {25.1}Load a dataset produced by MISLAND}{178}{section.25.1}%
+\contentsline {subsection}{\numberline {25.1.1}Productivity}{179}{subsection.25.1.1}%
+\contentsline {subsection}{\numberline {25.1.2}Land cover}{180}{subsection.25.1.2}%
+\contentsline {subsection}{\numberline {25.1.3}Soil organic carbon}{182}{subsection.25.1.3}%
+\contentsline {subsection}{\numberline {25.1.4}SDG 15.3.1 indicator}{184}{subsection.25.1.4}%
+\contentsline {section}{\numberline {25.2}Load a custom input dataset}{185}{section.25.2}%
+\contentsline {subsection}{\numberline {25.2.1}Productivity}{185}{subsection.25.2.1}%
+\contentsline {subsection}{\numberline {25.2.2}Land cover}{187}{subsection.25.2.2}%
+\contentsline {subsection}{\numberline {25.2.3}Soil organic carbon}{188}{subsection.25.2.3}%
+\contentsline {chapter}{\numberline {26}Download raw data}{189}{chapter.26}%
+\contentsline {chapter}{\numberline {27}Visualization tools}{191}{chapter.27}%
+\contentsline {chapter}{\numberline {28}Calculate SDG 15.3.1}{193}{chapter.28}%
+\contentsline {chapter}{\numberline {29}Calculate Vegetation/Forest Degradation}{195}{chapter.29}%
+\contentsline {section}{\numberline {29.1}Compute Vegatation Indices}{195}{section.29.1}%
+\contentsline {section}{\numberline {29.2}Compute Forest Fires}{196}{section.29.2}%
+\contentsline {section}{\numberline {29.3}Compute Forest Change and Total Carbon \& Summary}{196}{section.29.3}%
+\contentsline {chapter}{\numberline {30}Indices and tables}{197}{chapter.30}%

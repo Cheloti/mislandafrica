@@ -1,13 +1,13 @@
 Download data
 ==============
-In addition to exporting charts as an option, users can also downlad the data and plot their own custom charts or perform further analyses.
+In addition to exporting charts as an option, users can also downlad the data and create custom charts or perform further analyses.
 
-The Download Data option can be found just below the service menu-bar as shown below.
+The download data icon |downloaddataicon| icon can be found just below the summary text under the statistics panel as in the figure below.
 
 .. figure:: ../_static/Images/Service/downloaddata.png
-    :width: 144
+    :width: 411
     :align: center
-    :height: 78
+    :height: 530
     :alt: download data
     :figclass: align-center
 
@@ -16,9 +16,9 @@ The Download Data option can be found just below the service menu-bar as shown b
 The downloaded data is in .csv format and can be open in microsoft exel or similar software
 
 .. figure:: ../_static/Images/Service/download1.png
-    :width: 637
+    :width: 355
     :align: center
-    :height: 709
+    :height: 458
     :alt: Export data as CSV
     :figclass: align-center
 
@@ -32,9 +32,9 @@ MISLAND Service users can also download the data in GeoTIF format for further an
 To download the raster data, Click on the download tiff just below the service menu-bar as shown below
 
 .. figure:: ../_static/Images/Service/download2.png
-    :width: 422
+    :width: 209
     :align: center
-    :height: 154
+    :height: 85
     :alt: download raster (GeoTIFF)
     :figclass: align-center
 
@@ -50,3 +50,5 @@ This will prompt you to save the file in your desired location. The downloaded r
     :figclass: align-center
 
     Saving the downloaded tiff
+
+.. |downloaddataicon| image:: ../_static/Images/Service/downloaddataicon.png

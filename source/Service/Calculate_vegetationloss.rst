@@ -6,67 +6,44 @@ To compute vegetation loss/gain on the service platform,
 1. On the services menu, select the |veglossicon| option 
 
 .. figure:: ../_static/Images/vegetation_gain_loss.png
-    :width: 790
+    :width: 705
     :align: center
-    :height: 45
+    :height: 374
     :alt: Vegetation gain/loss service
     :figclass: align-center
 
     Selecting the vegetation Loss/Gain Service
 
-2. If the selected region is a large area, the user will be prompted to select a smaller region. Select a smaller region on the 'Select Country' dialog on the top left conner of the dashboard
-
-.. figure:: ../_static/Images/vegetation_gain_loss1.png
-    :width: 780
-    :align: center
-    :height: 206
-    :alt: select country
-    :figclass: align-center
-
-    seleting a region to compute vegetation gain/loss
-
-.. note::
-   Selection of a smaller regin optimizes the computation time and ensures that the service does not time-out. If a large area is selected, users will be notifed by a pop up on the top right conner of the site. Computation of large ares is still under development and will be available in later versions of the service.
-
-.. figure:: ../_static/Images/vegetation_gain_loss2.png
-    :width: 360
-    :align: center
-    :height: 99
-    :alt: warning
-    :figclass: align-center
-
-    Pop-up notification when large area is selected.
-
-3. Next, select the start and end period for which the vegetation loss and gain will be computed.
+2. Click on the |cog| icon to open the layer settings dialog and select the data source and reporting year as shown below.
 
 .. figure:: ../_static/Images/vegetation_gain_loss3.png
-    :width: 350
+    :width: 711
     :align: center
-    :height: 115
+    :height: 234
     :alt: vegetation gain/loss
     :figclass: align-center
 
     Vegetation gain/loss outputs
 
-To compute vegetation indices using Landsat derived vegetation indices, 
+To compute vegetation indices using Landsat derived vegetation indices(NDVI, MSAVI, SAVI), 
 
-1. On the services menu, select the 'VEGETATION GAIN/LOSS' option, and under the 'Source' dropdown menu, select Landsat 7 option
+1. On the Vegetation loss/gain dialog, select Landsat under the SELECT DATA SOURCE dropdown and click on the |advancedparameters| options to access the list of indices.
 
 .. figure:: ../_static/Images/Service/landsat.png
-    :width: 400
+    :width: 709
     :align: center
-    :height: 187
+    :height: 381
     :alt: Vegetation gain/loss service
     :figclass: align-center
 
     Selecting the Landsat-derived vegetation index option
 
-2. On the 'Veg index' dropdown, select the vegetation index to compute and select the start and end period
+2. select the vegetation index form the SELECT VEGEATATION INDEX dropdown that is revealed. Select the reporting period before clicking on the |submit| button.
 
 .. figure:: ../_static/Images/Service/vegindex.png
-    :width: 428
+    :width: 349
     :align: center
-    :height: 195
+    :height: 372
     :alt: select vegetation index
     :figclass: align-center
 
@@ -77,7 +54,7 @@ The map and computed statistics will be displayed on the map panel and summary p
 .. figure:: ../_static/Images/Service/landsat_vegetation_loss.png
     :width: 712
     :align: center
-    :height: 332
+    :height: 394
     :alt: register
     :figclass: align-center
 
@@ -91,3 +68,5 @@ The map and computed statistics will be displayed on the map panel and summary p
 .. |submit| image:: ../_static/Images/Service/submit.png
 .. |veglossbutton| image:: ../_static/Images/Service/veglossbutton.png
 .. |veglossicon| image:: ../_static/Images/Service/veglossicon.png
+.. |advancedparameters| image:: ../_static/Images/advancedparameters.png
+.. |cog| image:: ../_static/Images/Service/cog.png
