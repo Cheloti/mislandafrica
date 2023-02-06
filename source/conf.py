@@ -30,7 +30,7 @@ release = '1.0.0'
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-import pydata_sphinx_theme
+# import sphinx_rtd_theme
 
 extensions = [
 	
@@ -50,10 +50,15 @@ exclude_patterns = []
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
+
+import pydata_sphinx_theme
+
+# html_theme = 'sphinx_rtd_theme'
+html_theme = "pydata_sphinx_theme"
 #
 #html_theme = 'alabaster'
 #html_theme_path = [better_theme_path]
-html_theme = "pydata_sphinx_theme"
+# html_theme = "pydata_sphinx_theme"
 
 html_sidebars = { '**': ['globaltoc.html', 'relations.html', 'searchbox.html'] }
 
