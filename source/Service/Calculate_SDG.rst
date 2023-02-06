@@ -12,9 +12,9 @@ Land productivity is computed form vegetation indices using three measures of ch
 1. On the indicator menu bar that appears below the area selection panel click on the |landproductivitybutton| option. This should pop-up a selection panel as in the diagram below:
 
 .. figure:: ../_static/Images/Service/productivity1.png
-    :width: 297
+    :width: 697
     :align: center
-    :height: 351
+    :height: 482
     :alt: finding the land productivity tool
     :figclass: align-center
 
@@ -23,9 +23,9 @@ Land productivity is computed form vegetation indices using three measures of ch
 2. Under the productivity indicator option on the pop-up menu, users can select either of the three land productivity sub-indicators i.e. State, performance, and trajectory or the final aggregated land productivity for their selected area of interest.
 
 .. figure:: ../_static/Images/Service/productivity2.png
-    :width: 310
+    :width: 702
     :align: center
-    :height: 355
+    :height: 489
     :alt: Land_productivity
     :figclass: align-center
 
@@ -38,9 +38,9 @@ Land productivity is computed form vegetation indices using three measures of ch
    MISLAND allows users to asses vegetation using high resolution Landsat derived vegetation indices. If the selection of the dataset is landsat the option to specify the vegetation index .i.e NDVI, MSAVI or SAVI will appear under the |advancedparams| options.
 
     .. figure:: ../_static/Images/Service/productivity3.png
-        :width: 297
+        :width: 701
         :align: center
-        :height: 362
+        :height: 480
         :alt: Land_productivity_outputs
         :figclass: align-center
 
@@ -65,9 +65,9 @@ can be accessed from the |landcoverbutton| option under the SDG indicator menu a
 1. Select |sdgicon| option on the services menu-bar and clic on the |landcoverbutton| option. This should pop up a selection panel as the one shown below
 
 .. figure:: ../_static/Images/Service/lulc.png
-    :width: 226
+    :width: 682
     :align: center
-    :height: 281
+    :height: 482
     :alt: Land cover
     :figclass: align-center
 
@@ -77,9 +77,9 @@ can be accessed from the |landcoverbutton| option under the SDG indicator menu a
 
 
 .. figure:: ../_static/Images/Service/lulc2.png
-    :width: 224
+    :width: 695
     :align: center
-    :height: 282
+    :height: 482
     :alt: Land cover
     :figclass: align-center
 
@@ -90,7 +90,7 @@ Click on the |submit| button and the Land cover map for the chosen year and the 
 .. figure:: ../_static/Images/Service/lulc3.png
     :width: 665
     :align: center
-    :height: 285
+    :height: 385
     :alt: Land cover
     :figclass: align-center
 
@@ -99,9 +99,9 @@ Click on the |submit| button and the Land cover map for the chosen year and the 
 3. To compute landcover change, selec the 'Landcover change' option option under the `LANDCOVER ANALYSIS OPTIONS`. select the data landcover data source and the baseline and reporting year for comparison as shown 
 
 .. figure:: ../_static/Images/Service/lulc4.png
-    :width: 226
+    :width: 697
     :align: center
-    :height: 297
+    :height: 482
     :alt: Land cover
     :figclass: align-center
 
@@ -125,9 +125,9 @@ To compute changes in carbon stocks,
 1. Select |sdgicon| option on the services menu-bar. Choose |carbonstockbutton| option and under the SDG indicator menu-bar. This should pop-up a dialog as the one shown below
 
 .. figure:: ../_static/Images/Service/carbonstocks.png
-    :width: 265
+    :width: 366
     :align: center
-    :height: 297
+    :height: 335
     :alt: carbon stocks
     :figclass: align-center
 
@@ -154,9 +154,9 @@ To compute the SDG 15.3.1 indicator, follow these simple steps,
 1. Select the |sdgicon| service, on the services menu-bar and click on the |sdgoption| option. This should show a pop-up as the one shown below
 
 .. figure:: ../_static/Images/Service/sdg1.png
-    :width: 278
+    :width: 692
     :align: center
-    :height: 296
+    :height: 482
     :alt: SDG service
     :figclass: align-center
 
@@ -169,9 +169,9 @@ To compute the SDG 15.3.1 indicator, follow these simple steps,
    Clicking on the |advancedparams| option provides more options to select the vegetation index of choise, the ecological unit dataset and the soil organic carbon reference raster as shown below.
 
     .. figure:: ../_static/Images/Service/sdg2.png
-        :width: 218
+        :width: 693
         :align: center
-        :height: 237
+        :height: 482
         :alt: advanced options
         :figclass: align-center
 

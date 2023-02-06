@@ -3,7 +3,7 @@ Calculate Vegetation Loss/Gain indicators
 
 To compute vegetation loss/gain on the service platform,
 
-1. On the services menu, select the 'VEGETATION GAIN/LOSS' option 
+1. On the services menu, select the |veglossicon| option 
 
 .. figure:: ../_static/Images/vegetation_gain_loss.png
     :width: 790
@@ -12,7 +12,7 @@ To compute vegetation loss/gain on the service platform,
     :alt: Vegetation gain/loss service
     :figclass: align-center
 
-    Finding the forest change service
+    Selecting the vegetation Loss/Gain Service
 
 2. If the selected region is a large area, the user will be prompted to select a smaller region. Select a smaller region on the 'Select Country' dialog on the top left conner of the dashboard
 

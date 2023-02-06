@@ -1,0 +1,1025 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>Load Custom Data &#8212; Monitoring Integrated Service for Land Degradation 1.0.0 documentation</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../_static/styles/theme.css?digest=796348d33e8b1d947c94" rel="stylesheet">
+<link href="../_static/styles/bootstrap.css?digest=796348d33e8b1d947c94" rel="stylesheet">
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=796348d33e8b1d947c94" rel="stylesheet">
+
+  
+  <link href="../_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=796348d33e8b1d947c94" rel="stylesheet">
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-solid-900.woff2">
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-brands-400.woff2">
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-regular-400.woff2">
+
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=796348d33e8b1d947c94">
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=796348d33e8b1d947c94">
+
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'Qgis_Plugin/load_data';</script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Download raw data" href="Download_data.html" />
+    <link rel="prev" title="View and download results" href="gee_tasks.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="docsearch:language" content="None">
+  </head>
+  
+  
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="180" data-default-mode="">
+
+  
+  
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  
+  <input type="checkbox" class="sidebar-toggle" name="__primary" id="__primary">
+  <label class="overlay overlay-primary" for="__primary"></label>
+
+  
+  <input type="checkbox" class="sidebar-toggle" name="__secondary" id="__secondary">
+  <label class="overlay overlay-secondary" for="__secondary"></label>
+
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+      
+<form class="bd-search d-flex align-items-center" action="../search.html" method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search the docs ..." aria-label="Search the docs ..." autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form>
+    </div>
+  </div>
+
+  
+  <nav class="bd-header navbar navbar-expand-lg bd-navbar" id="navbar-main"><div class="bd-header__inner bd-page-width">
+  <label class="sidebar-toggle primary-toggle" for="__primary">
+      <span class="fa-solid fa-bars"></span>
+  </label>
+  <div id="navbar-start">
+    
+    
+  
+
+
+<a class="navbar-brand logo" href="../index.html">
+
+  
+  
+  
+  
+  
+  
+  
+
+  
+    <img src="../_static/logo.png" class="logo__image only-light" alt="Logo image">
+    <img src="../_static/logo.png" class="logo__image only-dark" alt="Logo image">
+  
+  
+</a>
+    
+  </div>
+
+  
+  <div class="col-lg-9 navbar-header-items">
+    <div id="navbar-center" class="mr-auto">
+      
+      <div class="navbar-center-item">
+        <nav class="navbar-nav">
+    <p class="sidebar-header-items__title" role="heading" aria-level="1" aria-label="Site Navigation">
+        Site Navigation
+    </p>
+    <ul id="navbar-main-elements" class="navbar-nav">
+        
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../Introduction/general_information.html">
+                        General Infortmation
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../Introduction/data.html">
+                        Data sources
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../Introduction/Layers.html">
+                        Dataset coding
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../Introduction/faq.html">
+                        Frequently asked questions
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../Background/LD_indicators.html">
+                        Land Degradation
+                      </a>
+                    </li>
+                
+            <div class="nav-item dropdown">
+                <button class="btn dropdown-toggle nav-item" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    More
+                </button>
+                <div class="dropdown-menu">
+                    
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../Background/SDG_indicators.html">
+                        SDG15.3.1 Indicator
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../Background/vegetationloss.html">
+                        Vegetation Loss/Gain hotspots
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../Background/Forest_change.html">
+                        Forest Change
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../Service/Service_Guide.html">
+                        Serivice Guide
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../Service/Calculate_SDG.html">
+                        SDG 15.3.1 indicator
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../Service/Calculate_vegetationloss.html">
+                        Calculate Vegetation Loss/Gain indicators
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../Service/Calculate_Forestloss.html">
+                        Calculate Forest Change
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../Service/Calculate_Medalus.html">
+                        Calculating Sensitivity to Desertification (MEDALUS)
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../Service/Download_results.html">
+                        Exporting Outputs
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../Service/Download_data.html">
+                        Download data
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="plugin_development.html">
+                        Plugin Development
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="before_installing.html">
+                        Before installing the toolbox
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="installing.html">
+                        Installing the toolbox
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="Registration.html">
+                        Registration and settings
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="Calculate_sdg15.html">
+                        Calculate SDG 15.3.1
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="Calculate_vegetation.html">
+                        Calculate Vegetation Degradation
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="Calculate_forest.html">
+                        Calculate Forest Degradation
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="Calculate_medalus.html">
+                        Calculate Desertification (MEDALUS)
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="gee_tasks.html">
+                        View and download results
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item current active">
+                      <a class="nav-link nav-internal" href="#">
+                        Load Custom Data
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="Download_data.html">
+                        Download raw data
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="visualization.html">
+                        Visualization tools
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="sdg_15_training.html">
+                        Calculate SDG 15.3.1
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="vegetation_degradation_training.html">
+                        Calculate Vegetation/Forest Degradation
+                      </a>
+                    </li>
+                
+                </div>
+            </div>
+            
+    </ul>
+</nav>
+      </div>
+      
+    </div>
+
+    <div id="navbar-end">
+      
+        <div class="navbar-end-item navbar-persistent--container">
+          
+<button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-toggle="tooltip">
+  <i class="fa-solid fa-magnifying-glass"></i>
+</button>
+        </div>
+      
+      
+      <div class="navbar-end-item">
+        <button class="theme-switch-button btn btn-sm btn-outline-primary navbar-btn rounded-circle" title="light/dark" aria-label="light/dark" data-toggle="tooltip">
+    <span class="theme-switch" data-mode="light"><i class="fa-solid fa-sun"></i></span>
+    <span class="theme-switch" data-mode="dark"><i class="fa-solid fa-moon"></i></span>
+    <span class="theme-switch" data-mode="auto"><i class="fa-solid fa-circle-half-stroke"></i></span>
+</button>
+      </div>
+      
+      <div class="navbar-end-item">
+        <ul id="navbar-icon-links" class="navbar-nav" aria-label="Icon Links">
+      </ul>
+      </div>
+      
+    </div>
+  </div>
+
+
+  
+  
+    <div class="navbar-persistent--mobile">
+<button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-toggle="tooltip">
+  <i class="fa-solid fa-magnifying-glass"></i>
+</button>
+    </div>
+  
+
+  
+  <label class="sidebar-toggle secondary-toggle" for="__secondary">
+      <span class="fa-solid fa-outdent"></span>
+  </label>
+  
+
+</div>
+  </nav>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+      <div class="sidebar-header-items__center">
+      
+      <div class="navbar-center-item">
+        <nav class="navbar-nav">
+    <p class="sidebar-header-items__title" role="heading" aria-level="1" aria-label="Site Navigation">
+        Site Navigation
+    </p>
+    <ul id="navbar-main-elements" class="navbar-nav">
+        
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../Introduction/general_information.html">
+                        General Infortmation
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../Introduction/data.html">
+                        Data sources
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../Introduction/Layers.html">
+                        Dataset coding
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../Introduction/faq.html">
+                        Frequently asked questions
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../Background/LD_indicators.html">
+                        Land Degradation
+                      </a>
+                    </li>
+                
+            <div class="nav-item dropdown">
+                <button class="btn dropdown-toggle nav-item" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    More
+                </button>
+                <div class="dropdown-menu">
+                    
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../Background/SDG_indicators.html">
+                        SDG15.3.1 Indicator
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../Background/vegetationloss.html">
+                        Vegetation Loss/Gain hotspots
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../Background/Forest_change.html">
+                        Forest Change
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../Service/Service_Guide.html">
+                        Serivice Guide
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../Service/Calculate_SDG.html">
+                        SDG 15.3.1 indicator
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../Service/Calculate_vegetationloss.html">
+                        Calculate Vegetation Loss/Gain indicators
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../Service/Calculate_Forestloss.html">
+                        Calculate Forest Change
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../Service/Calculate_Medalus.html">
+                        Calculating Sensitivity to Desertification (MEDALUS)
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../Service/Download_results.html">
+                        Exporting Outputs
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../Service/Download_data.html">
+                        Download data
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="plugin_development.html">
+                        Plugin Development
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="before_installing.html">
+                        Before installing the toolbox
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="installing.html">
+                        Installing the toolbox
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="Registration.html">
+                        Registration and settings
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="Calculate_sdg15.html">
+                        Calculate SDG 15.3.1
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="Calculate_vegetation.html">
+                        Calculate Vegetation Degradation
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="Calculate_forest.html">
+                        Calculate Forest Degradation
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="Calculate_medalus.html">
+                        Calculate Desertification (MEDALUS)
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="gee_tasks.html">
+                        View and download results
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item current active">
+                      <a class="nav-link nav-internal" href="#">
+                        Load Custom Data
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="Download_data.html">
+                        Download raw data
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="visualization.html">
+                        Visualization tools
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="sdg_15_training.html">
+                        Calculate SDG 15.3.1
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="vegetation_degradation_training.html">
+                        Calculate Vegetation/Forest Degradation
+                      </a>
+                    </li>
+                
+                </div>
+            </div>
+            
+    </ul>
+</nav>
+      </div>
+      
+      </div>
+    
+
+    
+    
+    <div class="sidebar-header-items__end">
+      
+      <div class="navbar-end-item">
+        <button class="theme-switch-button btn btn-sm btn-outline-primary navbar-btn rounded-circle" title="light/dark" aria-label="light/dark" data-toggle="tooltip">
+    <span class="theme-switch" data-mode="light"><i class="fa-solid fa-sun"></i></span>
+    <span class="theme-switch" data-mode="dark"><i class="fa-solid fa-moon"></i></span>
+    <span class="theme-switch" data-mode="auto"><i class="fa-solid fa-circle-half-stroke"></i></span>
+</button>
+      </div>
+      
+      <div class="navbar-end-item">
+        <ul id="navbar-icon-links" class="navbar-nav" aria-label="Icon Links">
+      </ul>
+      </div>
+      
+    </div>
+    
+  </div>
+
+  
+  <div class="sidebar-start-items sidebar-primary__section">
+    <div class="sidebar-start-items__item">
+<h3><a href="../index.html">Table of Contents</a></h3>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">About</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../Introduction/general_information.html">General Infortmation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Introduction/data.html">Data sources</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Introduction/Layers.html">Dataset coding</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Introduction/faq.html">Frequently asked questions</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Background</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../Background/LD_indicators.html">Land Degradation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Background/SDG_indicators.html">SDG15.3.1 Indicator</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Background/vegetationloss.html">Vegetation Loss/Gain hotspots</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Background/Forest_change.html">Forest Change</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Web Service Guide</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../Service/Service_Guide.html">Serivice Guide</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Service/Calculate_SDG.html">SDG 15.3.1 indicator</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Service/Calculate_vegetationloss.html">Calculate Vegetation Loss/Gain indicators</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Service/Calculate_Forestloss.html">Calculate Forest Change</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Service/Calculate_Medalus.html">Calculating Sensitivity to Desertification (MEDALUS)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Service/Download_results.html">Exporting Outputs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Service/Download_data.html">Download data</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Qgis Plugin Guide</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="plugin_development.html">Plugin Development</a></li>
+<li class="toctree-l1"><a class="reference internal" href="before_installing.html">Before installing the toolbox</a></li>
+<li class="toctree-l1"><a class="reference internal" href="installing.html">Installing the toolbox</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Registration.html">Registration and settings</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Calculate_sdg15.html">Calculate SDG 15.3.1</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Calculate_vegetation.html">Calculate Vegetation Degradation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Calculate_forest.html">Calculate Forest Degradation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Calculate_medalus.html">Calculate Desertification (MEDALUS)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="gee_tasks.html">View and download results</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Load Custom Data</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#load-a-dataset-produced-by-misland">Load a dataset produced by MISLAND</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#productivity">Productivity</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#land-cover">Land cover</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#soil-organic-carbon">Soil organic carbon</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#sdg-15-3-1-indicator">SDG 15.3.1 indicator</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#load-a-custom-input-dataset">Load a custom input dataset</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id1">Productivity</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id2">Land cover</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id3">Soil organic carbon</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="Download_data.html">Download raw data</a></li>
+<li class="toctree-l1"><a class="reference internal" href="visualization.html">Visualization tools</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">QGIS Plugin Training Material</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="sdg_15_training.html">Calculate SDG 15.3.1</a></li>
+<li class="toctree-l1"><a class="reference internal" href="vegetation_degradation_training.html">Calculate Vegetation/Forest Degradation</a></li>
+</ul>
+
+    </div>
+    <div class="sidebar-start-items__item">
+  <div>
+    <h4>Previous topic</h4>
+    <p class="topless"><a href="gee_tasks.html"
+                          title="previous chapter">View and download results</a></p>
+  </div>
+  <div>
+    <h4>Next topic</h4>
+    <p class="topless"><a href="Download_data.html"
+                          title="next chapter">Download raw data</a></p>
+  </div>
+    </div>
+    <div class="sidebar-start-items__item">
+<div class="tocsection sourcelink">
+    <a href="../_sources/Qgis_Plugin/load_data.rst.txt">
+        <i class="fa-solid fa-file-lines"></i> Show Source
+    </a>
+</div>
+
+    </div>
+    <div class="sidebar-start-items__item">
+<div id="searchbox"></div>
+    </div>
+  </div>
+  
+
+  
+  <div class="sidebar-end-items sidebar-primary__section">
+    <div class="sidebar-end-items__item">
+    </div>
+  </div>
+
+  
+  <div id="rtd-footer-container"></div>
+
+      </div>
+      <main id="main-content" class="bd-main">
+        
+        
+        <div class="bd-content">
+          <div class="bd-article-container">
+            
+            <div class="bd-header-article">
+                
+            </div>
+            
+            
+            <article class="bd-article" role="main">
+              
+  <section id="load-custom-data">
+<h1>Load Custom Data<a class="headerlink" href="#load-custom-data" title="Permalink to this headline">#</a></h1>
+<div style="border: 1px solid; margin-bottom: 2em; box-shadow: 2px 3px #888888; overflow: hidden; max-width: 100%; height: auto;">
+    <video style="width: 100%; height: 100%;" controls>
+        <source src="https://res.cloudinary.com/acemobile/video/upload/v1613917179/MISLAND/load_custom_data.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+</div><img alt="../_images/plugin_toolbar_loaddata.png" class="align-center" src="../_images/plugin_toolbar_loaddata.png" />
+<p>The “Load data” function allows the user to load data into QGIS and
+MISLAND for analysis.</p>
+<p>There are two options, to load results of MISLAND analysis or to load
+custom datasets which will be used to compute the indicators.</p>
+<img alt="../_images/custom_load.png" class="align-center" src="../_images/custom_load.png" />
+<section id="load-a-dataset-produced-by-misland">
+<h2>Load a dataset produced by MISLAND<a class="headerlink" href="#load-a-dataset-produced-by-misland" title="Permalink to this headline">#</a></h2>
+<p>This option lets you load already downloaded results from MISLAND. eg Productivity, Land Cover, Soil Organic Carbon,
+Forest Fires, Soil Quality Index, Vegetation Quality Index, Climate Quality Index, Management Quality Index, etc.</p>
+<section id="productivity">
+<h3>Productivity<a class="headerlink" href="#productivity" title="Permalink to this headline">#</a></h3>
+<p>Use this function to load into the QGIS map pre-computed productivity indicators which had been
+processed to identify land degradation.</p>
+<p>Navigate to the folder where you stored the downloaded file and select it. The downloaded file is an 8 band raster,
+with each band representing the three subindicators (trajectory, performance and state) plus other information which may
+help you interpret the trends identified. The layers to be loaded into the QGIS maps are the ones highlighted in gray. By default: trajectory
+(degradation and slope), performance and state. If you want to load the other layers, simply select them and click OK.</p>
+<img alt="../_images/loaddata_trendsearth_productivity.png" class="align-center" src="../_images/loaddata_trendsearth_productivity.png" />
+<p>The layers will be loaded in the QGIS map with its corresponding symbology.</p>
+<img alt="../_images/loaddata_trendsearth_productivity_loaded.png" class="align-center" src="../_images/loaddata_trendsearth_productivity_loaded.png" />
+</section>
+<section id="land-cover">
+<h3>Land cover<a class="headerlink" href="#land-cover" title="Permalink to this headline">#</a></h3>
+<p>This option lets you load pre-computed land cover indicators which had been
+processed to identify land degradation.</p>
+<p>Navigate to the folder where you stored the downloaded file and select it. The downloaded file is a multi band raster. The number
+of bands will depend on the period of analysis selected and the data source used. If the default ESA CCI land cover was used, for example,
+annual land cover maps will be downloaded.</p>
+<p>The bands in the stack represent: initial and final land cover (annual if available) both in the original classification scheme and using
+the UNCCD 7 class land cover table, land cover transitions and land cover degradation as
+identified by this subindicator. If you want to load the other layers not selected by default, simply select them and click OK.</p>
+<img alt="../_images/loaddata_trendsearth_landcover.png" class="align-center" src="../_images/loaddata_trendsearth_landcover.png" />
+<p>The layers will be loaded in the QGIS map with its corresponding symbology.</p>
+<img alt="../_images/loaddata_trendsearth_landcover_loaded.png" class="align-center" src="../_images/loaddata_trendsearth_landcover_loaded.png" />
+</section>
+<section id="soil-organic-carbon">
+<h3>Soil organic carbon<a class="headerlink" href="#soil-organic-carbon" title="Permalink to this headline">#</a></h3>
+<p>This option lets you load pre-computed soil organic carbon indicators which had been
+processed to identify land degradation.</p>
+<p>Navigate to the folder where you stored the downloaded file and select it. The downloaded file is a multi band raster. The number
+of bands will depend on the period of analysis selected and the data source used. If the default ESA CCI land cover was used, for example,
+annual soil organic carbon maps will be downloaded.</p>
+<p>The bands in the stack represent: initial and final soil organic carbon stocks (annual soc if annual land data is available),
+initial and final land cover maps using the UNCCD 7 class land cover classification,and degradation as identified by this
+subindicator. The units of the degradation layer are “% change”, if changes are larger than 10% for the period, they will be
+considered as improvement or degradation depending on the sign of the change. If you want to load the other layers not
+selected by default, simply select them and click OK.</p>
+<img alt="../_images/loaddata_trendsearth_soc.png" class="align-center" src="../_images/loaddata_trendsearth_soc.png" />
+<p>The layers will be loaded in the QGIS map with its corresponding symbology.</p>
+<img alt="../_images/loaddata_trendsearth_soc_loaded.png" class="align-center" src="../_images/loaddata_trendsearth_soc_loaded.png" />
+</section>
+<section id="sdg-15-3-1-indicator">
+<h3>SDG 15.3.1 indicator<a class="headerlink" href="#sdg-15-3-1-indicator" title="Permalink to this headline">#</a></h3>
+<p>This option lets you load pre-computed productivity subindicator (the integration of trajectory,
+performance and state) as well as the final SDG 15.3.1 (the integration of productivity,
+land cover and soil organic carbon)</p>
+<p>Navigate to the folder where you stored the downloaded file and select it. The downloaded file is an 2 band raster, the first one
+containing information on the SDG and the second on the 5 classes productivity subindicator.</p>
+<img alt="../_images/loaddata_trendsearth_sdg.png" class="align-center" src="../_images/loaddata_trendsearth_sdg.png" />
+<p>The layers will be loaded in the QGIS map with its corresponding symbology.</p>
+<img alt="../_images/loaddata_trendsearth_sdg_loaded.png" class="align-center" src="../_images/loaddata_trendsearth_sdg_loaded.png" />
+</section>
+</section>
+<section id="load-a-custom-input-dataset">
+<h2>Load a custom input dataset<a class="headerlink" href="#load-a-custom-input-dataset" title="Permalink to this headline">#</a></h2>
+<section id="id1">
+<h3>Productivity<a class="headerlink" href="#id1" title="Permalink to this headline">#</a></h3>
+<p>Use this option to load productivity datasets which have already been generated outside of MISLAND.</p>
+<p>Productivity classes in the input data must be coded as follows:</p>
+<p>1: Declining
+2: Early signs of decline
+3: Stable but stressed
+4: Stable
+5: Increasing
+0 or -32768: No data</p>
+<img alt="../_images/loaddata_landproductivity.png" class="align-center" src="../_images/loaddata_landproductivity.png" />
+</section>
+<section id="id2">
+<h3>Land cover<a class="headerlink" href="#id2" title="Permalink to this headline">#</a></h3>
+<p>Use this option to load land cover datasets which will then be used for land
+cover change analysis and/or soil organic carbon change analysis.</p>
+<img alt="../_images/loaddata_landcover.png" class="align-center" src="../_images/loaddata_landcover.png" />
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>If you’ll be using the <a class="reference external" href="https://www.eea.europa.eu/publications/COR0-landcover">CORINE land cover data</a> , you can use
+<a class="reference external" href="https://s3.amazonaws.com/trends.earth/sharing/Corine_Land_Cover_to_UNCCD_TrendsEarth_Definition.json">this definition file</a>
+to pre-load a suggested aggregation of the land cover classes in Corine to convert them to the 7 UNCCD land cover classes.</p>
+</div>
+</section>
+<section id="id3">
+<h3>Soil organic carbon<a class="headerlink" href="#id3" title="Permalink to this headline">#</a></h3>
+<p>Processing of custom soil organic carbon data can be handled using this
+tool.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>This tool assumes that the units of the raster layer to be imported
+are <strong>Metrics Tons of organic carbon per hectare</strong>. If your layer is in
+different units, please make the necessary conversions before using it in
+MISLAND.</p>
+</div>
+</section>
+</section>
+</section>
+
+
+            </article>
+            
+            
+            
+            <footer class="bd-footer-article">
+                <!-- Previous / next buttons -->
+<div class='prev-next-area'>
+  <a class='left-prev' id="prev-link" href="gee_tasks.html" title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+          <p class="prev-next-subtitle">previous</p>
+          <p class="prev-next-title">View and download results</p>
+      </div>
+  </a>
+  <a class='right-next' id="next-link" href="Download_data.html" title="next page">
+  <div class="prev-next-info">
+      <p class="prev-next-subtitle">next</p>
+      <p class="prev-next-title">Download raw data</p>
+  </div>
+  <i class="fa-solid fa-angle-right"></i>
+  </a>
+</div>
+            </footer>
+            
+          </div>
+          
+          
+          
+            <div class="bd-sidebar-secondary bd-toc">
+              
+<div class="toc-item">
+  
+<div class="tocsection onthispage">
+    <i class="fa-solid fa-list"></i> On this page
+</div>
+<nav id="bd-toc-nav" class="page-toc">
+    <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#load-a-dataset-produced-by-misland">
+   Load a dataset produced by MISLAND
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#productivity">
+     Productivity
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#land-cover">
+     Land cover
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#soil-organic-carbon">
+     Soil organic carbon
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#sdg-15-3-1-indicator">
+     SDG 15.3.1 indicator
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#load-a-custom-input-dataset">
+   Load a custom input dataset
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id1">
+     Productivity
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id2">
+     Land cover
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id3">
+     Soil organic carbon
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+</nav>
+</div>
+
+<div class="toc-item">
+  
+<div id="searchbox"></div>
+</div>
+
+<div class="toc-item">
+  
+</div>
+
+<div class="toc-item">
+  
+<div class="tocsection sourcelink">
+    <a href="../_sources/Qgis_Plugin/load_data.rst.txt">
+        <i class="fa-solid fa-file-lines"></i> Show Source
+    </a>
+</div>
+
+</div>
+
+            </div>
+          
+          
+        </div>
+        <footer class="bd-footer-content">
+          <div class="bd-footer-content__inner">
+            
+          </div>
+        </footer>
+        
+      </main>
+    </div>
+  </div>
+
+  
+    
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../_static/scripts/bootstrap.js?digest=796348d33e8b1d947c94"></script>
+<script src="../_static/scripts/pydata-sphinx-theme.js?digest=796348d33e8b1d947c94"></script>
+
+  <footer class="bd-footer"><div class="bd-footer__inner container">
+  
+  <div class="footer-item">
+    
+<p class="copyright">
+
+    &copy; Copyright 2020, LocateIT Kenya Ltd.<br>
+
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    <p class="theme-version">
+    Built with the
+    <a href="https://pydata-sphinx-theme.readthedocs.io/en/stable/index.html">
+        PyData Sphinx Theme
+    </a>
+    0.12.0.
+</p>
+  </div>
+  
+  <div class="footer-item">
+    
+<p class="sphinx-version">
+Created using <a href="http://sphinx-doc.org/">Sphinx</a> 4.5.0.<br>
+</p>
+
+  </div>
+  
+</div>
+  </footer>
+  </body>
+</html>

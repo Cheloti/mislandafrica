@@ -9,38 +9,38 @@ _______________________
 
 To compute forest loss using the Hansen Global forest change dataset;
 
-1. On the top left conner of the Map pannel, click on the 'Draw a Polygon' tool and draw an area on the map where you wish to compute the forest loss
+1. On the top left conner of the Map pannel, click on the |sdgicon| tool to toggle the drowing tools. Once the drawing tools are revealed, click on the |drowpolygon| tool to start drowing a custom area on the map where you wish to compute the forest loss
 
 .. figure:: ../_static/Images/Service/draw.png
-    :width: 345
+    :width: 384
     :align: center
-    :height: 349
+    :height: 390
     :alt: draw polygon
     :figclass: align-center
 
     Draw a polygon tool
 
 .. figure:: ../_static/Images/Service/drawarea.png
-    :width: 345
+    :width: 431
     :align: center
-    :height: 349
+    :height: 438
     :alt: draw polygon
     :figclass: align-center
 
     Draw a polygon tool
 
-2. Select FOREST CHANGE on the service menu bar and under the 'Source dropdown' options, choose 'Hansen' and select the year you wish to compute the forest loss.
+2. Select |forestlossicon| and click on the layer settings icon |cog| . On the layer settings dialog, under the 'SELECT DATA SOURCE' options, choose 'Hansen' and select the year you wish to compute the forest loss.
 
 .. figure:: ../_static/Images/Service/Hansen.png
-    :width: 400
+    :width: 683
     :align: center
-    :height: 397
+    :height: 482
     :alt: Hansen
     :figclass: align-center
 
     Selecting the Hansen Forest loss data
 
-The map and computed statistics will be displayed on the map panel and summary pannel respectively.
+On clicking |submit| The map and computed statistics will be displayed on the map panel and summary pannel respectively.
 
 .. figure:: ../_static/Images/Service/hansenoutput.png
     :width: 705
@@ -54,12 +54,12 @@ The map and computed statistics will be displayed on the map panel and summary p
 Computing Forest Fires
 _______________________
 
-1. Select the FOREST FIRES option from the service menu as shown below
+1. Select the |forestchangeicon| option from the service menu. Under the |forestfireassesmenticon| click on the |cog| icon to toggle the layer settings as shown below.
 
 .. figure:: ../_static/Images/Service/forestfireselection.png
-    :width: 449
+    :width: 354
     :align: center
-    :height: 47
+    :height: 482
     :alt: register
     :figclass: align-center
 
@@ -68,18 +68,18 @@ _______________________
 2. On the output layer options, select the pre and post fire dates using the calender
 
 .. figure:: ../_static/Images/Service/calender.png
-    :width: 435
+    :width: 384
     :align: center
-    :height: 475
+    :height: 405
     :alt: seting the pre- and post-fire dates
     :figclass: align-center
 
     Selecting the date from the calender tool.
 
 .. figure:: ../_static/Images/Service/firedates.png
-    :width: 438
+    :width: 308
     :align: center
-    :height: 156
+    :height: 178
     :alt: register
     :figclass: align-center
 
@@ -88,9 +88,9 @@ _______________________
 3. Choose the platform to use to compute the burnt area
 
 .. figure:: ../_static/Images/Service/platform.png
-    :width: 229
+    :width: 326
     :align: center
-    :height: 216
+    :height: 336
     :alt: register
     :figclass: align-center
 
@@ -101,7 +101,7 @@ The output showing the extent and severity of the fire will be as shown below
 .. figure:: ../_static/Images/Service/fireoutput.png
     :width: 793
     :align: center
-    :height: 406
+    :height: 350
     :alt: register
     :figclass: align-center
 
@@ -110,3 +110,11 @@ The output showing the extent and severity of the fire will be as shown below
 
 .. toctree::
    :maxdepth: 3
+
+.. |sdgicon| image:: ../_static/Images/Service/drowicon.png
+.. |drowpolygon| image:: ../_static/Images/Service/drawpolygonicon.png
+.. |forestlossicon| image:: ../_static/Images/Service/forestlossicon.png
+.. |cog| image:: ../_static/Images/Service/cog.png
+.. |submit| image:: ../_static/Images/Service/submit.png
+.. |forestchangeicon| image:: ../_static/Images/Service/forestchangeicon.png
+.. |forestfireassesmenticon| image:: ../_static/Images/Service/forestfireassesmenticon.png
