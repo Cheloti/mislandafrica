@@ -3,7 +3,7 @@ General Infortmation
 =====================
 MISLAND Africa is an operational instrument relying on the international standards for reporting SDG 15.3.1 and technical approaches allowing the delivery of regular information on vegetation cover gain/loss to decision makers and environmental agencies at the first place.
 
-The core-service provides land degradation indicators for six North African Countries at two levels:
+The core-service provides land degradation indicators for five African regions at two levels:
 
 	- At the continental level(Africa) and five regional levels(North Africa, West Africa, East Africa, Central Africa, and South Africa) where low and medium resolution EO are used.
 
