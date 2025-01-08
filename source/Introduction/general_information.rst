@@ -1,7 +1,7 @@
 =====================
 General Infortmation
 =====================
-MISLAND-North Africa is an operational instrument relying on the international standards for reporting SDG 15.3.1 and technical approaches allowing the delivery of regular information on vegetation cover gain/loss to decision makers and environmental agencies at the first place.
+MISLAND Africa is an operational instrument relying on the international standards for reporting SDG 15.3.1 and technical approaches allowing the delivery of regular information on vegetation cover gain/loss to decision makers and environmental agencies at the first place.
 
 The core-service provides land degradation indicators for six North African Countries at two levels:
 
